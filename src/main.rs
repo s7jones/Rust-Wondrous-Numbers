@@ -44,7 +44,7 @@ fn main() {
 
             println!("You chose: {}", number);
 
-            let mut n = 1;
+            let mut n = 0;
             loop {
                 println!("Iteration {}, number: {}", n, number);
                 if number == 1 {
@@ -78,7 +78,7 @@ fn main() {
 
             println!("You chose: {}", number);
 
-            let mut n = 1;
+            let mut n = 0;
             let mut parity_sequence = String::new();
 
             loop {
